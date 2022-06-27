@@ -1,5 +1,5 @@
 === Easy Tiktok Feed ===
-Contributors: maltathemes, sjaved
+Contributors: DaNish Ali
 Tags: tiktok, tiktok embed, tiktok feed, tiktok video, tiktok widget, tiktok gallery
 Requires at least: 3.4
 Tested up to: 5.9
