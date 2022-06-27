@@ -1,0 +1,11 @@
+//
+// Screenreaders
+//
+
+.etf-sr-only {
+  @include sr-only();
+}
+
+.etf-sr-only-focusable {
+  @include sr-only-focusable();
+}

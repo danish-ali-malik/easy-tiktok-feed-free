@@ -1,0 +1,274 @@
+# Copyright (C) 2021 by the contributors
+# This file is distributed under the same license as the WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://core.trac.wordpress.org/\n"
+"POT-Creation-Date: 2021-04-03 00:41+0500\n"
+"PO-Revision-Date: 2021-04-03 00:42+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-easy-tiktok-feed-admin.php:72
+#: admin/views/html-admin-page-easy-tiktok-feed.php:43
+msgid "Copied"
+msgstr ""
+
+#: admin/class-easy-tiktok-feed-admin.php:73
+msgid "Something went wrong!"
+msgstr ""
+
+#: admin/class-easy-tiktok-feed-admin.php:137
+#: admin/class-easy-tiktok-feed-admin.php:212
+msgid "Something Went Wrong! Please try again."
+msgstr ""
+
+#: admin/class-easy-tiktok-feed-admin.php:167
+msgid "Visit Easy Tiktok Feed page for more info"
+msgstr ""
+
+#: admin/class-easy-tiktok-feed-admin.php:208
+msgid "Cache is successfully deleted."
+msgstr ""
+
+#: admin/views/html-admin-page-easy-tiktok-feed.php:25
+msgid "Use (Display)"
+msgstr ""
+
+#: admin/views/html-admin-page-easy-tiktok-feed.php:27
+msgid "Clear Cache"
+msgstr ""
+
+#: admin/views/html-cache-tab.php:42
+msgid "Cached Account(s) and Hashtag feed"
+msgstr ""
+
+#: admin/views/html-cache-tab.php:43
+msgid ""
+"Following is the cached data from Tiktok API. Delete the cache to refresh "
+"your feed manually"
+msgstr ""
+
+#: admin/views/html-cache-tab.php:53
+msgid "Bio"
+msgstr ""
+
+#: admin/views/html-cache-tab.php:77
+msgid "Feed"
+msgstr ""
+
+#: admin/views/html-cache-tab.php:102
+msgid "Whoops! nothing cached at the moment."
+msgstr ""
+
+#: admin/views/html-display-tab.php:11
+msgid "How to use?"
+msgstr ""
+
+#: admin/views/html-display-tab.php:12
+msgid ""
+"Copy and paste the following shortcode in any page, post or text widget to "
+"display the GoPro Tiktok Feed"
+msgstr ""
+
+#: admin/views/html-display-tab.php:17 admin/views/html-display-tab.php:164
+msgid "Copy"
+msgstr ""
+
+#: admin/views/html-display-tab.php:23
+msgid "Want to customize?"
+msgstr ""
+
+#: admin/views/html-display-tab.php:24
+msgid ""
+"Use the following shortcode generator to further customize the shortcode."
+msgstr ""
+
+#: admin/views/html-display-tab.php:30
+msgid "Username or Hashtag?"
+msgstr ""
+
+#: admin/views/html-display-tab.php:35
+msgid "Username"
+msgstr ""
+
+#: admin/views/html-display-tab.php:42 admin/views/html-display-tab.php:49
+msgid "Hashtag"
+msgstr ""
+
+#: admin/views/html-display-tab.php:59 admin/views/html-display-tab.php:128
+msgid "Premium Feature"
+msgstr ""
+
+#: admin/views/html-display-tab.php:61
+msgid ""
+"We're sorry, Hashtag feature is not included in your plan. Please upgrade to "
+"premium version to unlock this and all other cool features."
+msgstr ""
+
+#: admin/views/html-display-tab.php:65 admin/views/html-display-tab.php:134
+msgid "Upgrade to pro"
+msgstr ""
+
+#: admin/views/html-display-tab.php:78
+msgid "Enter Tiktok username"
+msgstr ""
+
+#: admin/views/html-display-tab.php:88
+msgid "Enter Tiktok tag"
+msgstr ""
+
+#: admin/views/html-display-tab.php:97
+msgid "Layout"
+msgstr ""
+
+#: admin/views/html-display-tab.php:101
+msgid "Grid"
+msgstr ""
+
+#: admin/views/html-display-tab.php:106 admin/views/html-display-tab.php:113
+msgid "Masonry"
+msgstr ""
+
+#: admin/views/html-display-tab.php:107 admin/views/html-display-tab.php:114
+msgid "Carousel"
+msgstr ""
+
+#: admin/views/html-display-tab.php:108 admin/views/html-display-tab.php:115
+msgid "Half Width"
+msgstr ""
+
+#: admin/views/html-display-tab.php:109 admin/views/html-display-tab.php:116
+msgid "Full Width"
+msgstr ""
+
+#: admin/views/html-display-tab.php:130
+msgid ""
+"We're sorry, selected layout is not included in your plan. Please upgrade to "
+"premium version to unlock this and all other cool features."
+msgstr ""
+
+#: admin/views/html-display-tab.php:145
+msgid "Number of videos to display"
+msgstr ""
+
+#: admin/views/html-display-tab.php:153
+msgid "Custom wraper class (optional)"
+msgstr ""
+
+#: admin/views/html-display-tab.php:159
+msgid "Generate"
+msgstr ""
+
+#: frontend/views/feed.php:152
+msgid "Unable to get feed"
+msgstr ""
+
+#: frontend/views/html-feed-footer.php:16
+msgid "Follow on Tiktok"
+msgstr ""
+
+#: frontend/views/html-feed-header.php:81
+msgid "Likes"
+msgstr ""
+
+#: frontend/views/html-feed-header.php:96
+msgid "Followers"
+msgstr ""
+
+#: frontend/views/html-feed-header.php:112
+msgid "Videos"
+msgstr ""
+
+#: frontend/views/html-feed-header.php:125
+msgid "Following"
+msgstr ""
+
+#: frontend/views/html-feed-header.php:140
+msgid "Views"
+msgstr ""
+
+#: frontend/views/html-feed-popup.php:18
+msgid "Your browser does not support the video tag"
+msgstr ""
+
+#: frontend/views/html-post-meta.php:55
+msgid "View on TikTok"
+msgstr ""
+
+#: frontend/views/html-post-meta.php:59
+msgid "Share"
+msgstr ""
+
+#: includes/easy-tiktok-feed-helper-functions.php:68
+msgid "second"
+msgstr ""
+
+#: includes/easy-tiktok-feed-helper-functions.php:69
+msgid "seconds"
+msgstr ""
+
+#: includes/easy-tiktok-feed-helper-functions.php:70
+msgid "minute"
+msgstr ""
+
+#: includes/easy-tiktok-feed-helper-functions.php:71
+msgid "minutes"
+msgstr ""
+
+#: includes/easy-tiktok-feed-helper-functions.php:72
+msgid "hour"
+msgstr ""
+
+#: includes/easy-tiktok-feed-helper-functions.php:73
+msgid "hours"
+msgstr ""
+
+#: includes/easy-tiktok-feed-helper-functions.php:74
+msgid "day"
+msgstr ""
+
+#: includes/easy-tiktok-feed-helper-functions.php:75
+msgid "days"
+msgstr ""
+
+#: includes/easy-tiktok-feed-helper-functions.php:76
+msgid "week"
+msgstr ""
+
+#: includes/easy-tiktok-feed-helper-functions.php:77
+msgid "weeks"
+msgstr ""
+
+#: includes/easy-tiktok-feed-helper-functions.php:78
+msgid "month"
+msgstr ""
+
+#: includes/easy-tiktok-feed-helper-functions.php:79
+msgid "months"
+msgstr ""
+
+#: includes/easy-tiktok-feed-helper-functions.php:80
+msgid "year"
+msgstr ""
+
+#: includes/easy-tiktok-feed-helper-functions.php:81
+msgid "years"
+msgstr ""
+
+#: includes/easy-tiktok-feed-helper-functions.php:82
+msgid "decade"
+msgstr ""
+
+#: includes/easy-tiktok-feed-helper-functions.php:85
+msgid "ago"
+msgstr ""

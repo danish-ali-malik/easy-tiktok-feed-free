@@ -1,0 +1,19 @@
+// stylelint-disable declaration-no-important
+// Width and height
+@each $prop,
+$abbrev in (width: etf-w, height: etf-h) {
+    @each $size,
+    $length in $sizes {
+        .#{$abbrev}-#{$size} {
+            #{$prop}: $length !important;
+        }
+    }
+}
+
+.etf-mw-100 {
+    max-width: 100% !important;
+}
+
+.etf-mh-100 {
+    max-height: 100% !important;
+}

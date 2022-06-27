@@ -1,0 +1,11 @@
+//
+// Visibility utilities
+//
+
+.etf-visible {
+  @include invisible(visible);
+}
+
+.etf-invisible {
+  @include invisible(hidden);
+}

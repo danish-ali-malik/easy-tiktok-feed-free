@@ -1,0 +1,29 @@
+// stylelint-disable declaration-no-important
+
+//
+// Text
+//
+
+// Alignment
+
+.etf-text-justify  { text-align: justify !important; }
+.etf-text-nowrap   { white-space: nowrap !important; }
+.etf-text-truncate { @include text-truncate; }
+
+// Responsive alignment
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .etf-text#{$infix}-left   { text-align: left !important; }
+    .etf-text#{$infix}-right  { text-align: right !important; }
+    .etf-text#{$infix}-center { text-align: center !important; }
+  }
+}
+
+// Transformation
+
+.etf-text-lowercase  { text-transform: lowercase !important; }
+.etf-text-uppercase  { text-transform: uppercase !important; }
+.etf-text-capitalize { text-transform: capitalize !important; }

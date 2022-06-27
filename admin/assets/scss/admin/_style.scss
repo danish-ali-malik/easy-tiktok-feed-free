@@ -1,0 +1,279 @@
+.etf-admin-wrap{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin-top: 15px;
+    background: #fff;
+    border-left: 0;
+    border-right: 0;
+    @extend %etf-box-shadow;
+
+    a:focus{
+    box-shadow:none;
+    outline:none;
+    }
+    h1, h2, h3, h4, h5, h6{
+      color: #f9284f;
+      letter-spacing: .7px;
+    }
+    p{
+      color: #4f4d4d;
+      font-size: 15px;
+      line-height: 1.7;
+      letter-spacing: .5px;
+    }
+    button, input[type="submit"]{
+      background: #f9284f;
+      border: none;
+      padding: 15px 20px;
+      color: #fff;
+      font-size: 16px;
+      letter-spacing: .5px;
+      cursor: pointer;
+      border-radius: 2px;
+      @extend %etf-box-shadow;
+      @extend %etf-transition;
+
+      &:hover{
+      background:#e84c69;
+      @extend %etf-transition;
+      }
+    }
+    .etf-admin-container{
+
+      .etf-intro-wrap{
+          display: flex;
+          flex-direction: row;
+
+          .etf-intro-content{
+              width: 90%;
+          }
+          .etf-intro-logo{
+              width: 10%;
+              margin-top: 30px;
+
+              img{
+                  max-width: 80px;
+                  float: right;
+              }
+          }
+      }
+
+      .etf-tabs-holder{
+          .etf-tabs-buttons-holder{
+            display: flex;
+            flex-direction: row;
+                 background: #f9294f;
+              color: #f3f4f5;
+              border-bottom: 3px solid #dc1639;
+
+              .etf-nav-tab-wrapper{
+                  margin: 0;
+                  padding-bottom: 0;
+                  line-height: inherit;
+
+                  a{
+
+                      margin-left: 0;
+                      padding: 26px 32px 22px 32px;
+                      font-size: 1.2em;
+                         line-height: 1.5;
+                      border-width: 0 0 3px;
+                      border-style: solid;
+                      border-color: transparent;
+                      background: 0 0;
+                      color: inherit;
+                      float: left;
+                      font-weight: 600;
+                      text-decoration: none;
+                      white-space: nowrap;
+                      letter-spacing: 1px;
+
+                     &:hover{
+                      background-color: #dc1639;
+                      border-color: #dc1639;
+                      }  
+
+                    &.etf-nav-tab-active{
+                    margin-bottom: -3px;
+                    border-width: 0 0 6px;
+                    border-color: #80c2d0;
+                  }
+
+                 
+              }
+              .etf-nav-tab-active:hover{
+                  border-color: #80c2d0;
+              }
+            }  
+          }
+
+        .etf-tab-content{
+                display: none; 
+                padding: 30px 15px;
+                &.etf-tab-active{
+                 display: block; 
+                }  
+
+              h2{
+                font-size: 19px;
+                margin: 0;
+              } 
+              p:last-child{
+              margin-bottom: 0;
+              } 
+
+              .etf-shortcode-wrap{
+                display: flex;
+                flex-direction: row;
+                    margin-bottom: 25px;
+                .etf-shortcode-holder{
+                    padding: 10px 20px 10px 10px;
+                    font-size: 15px;
+                    border-left: 5px solid #f9284f;
+                        float: left;
+                    @extend %etf-box-shadow;
+                }
+                .etf-icon-clipboard{
+                  background: #f9284f;
+                  color: #fff;
+                  font-size: 16px;
+                  padding: 10px 15px;
+                  line-height: 1;
+                  cursor:pointer;
+                  @extend %etf-box-shadow;
+                }
+              } 
+              .etf-shortcode-generator-wrap{
+                    margin-top: 40px;
+
+                    
+                .etf-shortcode-generator-holder  {
+                    display: inline-block;
+                    width: 100%;
+                    margin-top: 5px;
+
+                    .etf-input-field-wrapper:nth-child(odd){
+                    padding-left:0;
+                    }
+
+                    .etf-input-field-wrapper{
+
+                        .etf-main-label{
+                          font-weight: bold;
+                          letter-spacing: .8px;
+                          font-size: 13px;
+                          line-height: 3;
+                        }
+                        .etf-radio-wrap{
+                            display: flex;
+                            flex-direction: row;
+                            margin-top: 5px;
+
+                            .etf-radio-holder{
+                                margin-right: 15px;
+
+                                input[type=radio]{
+                                    margin: 0 1px;
+                                }
+                            }
+                        }
+                    }
+                    .etf-hashtag-field{
+                    display:none;
+                    }
+                  } 
+                .etf-shortcode-footer-holder{
+              
+
+                   .etf-generated-shortcode-holder{
+                      display: none;
+                      margin-bottom: 0;
+                      margin-top: 15px;
+                   } 
+                }  
+                 
+
+              } 
+
+              .etf-cache-holer{
+
+                  .etf-cache-wrap{
+                      margin: 1.5rem 0 1rem 0;
+                      border: 1px solid #e0e0e0;
+                      border-radius: 2px;
+                      overflow: hidden;
+                      position: relative;
+
+                      .header{
+                          background-color: #fff;
+                          border-bottom: 1px solid #e0e0e0;
+                          padding: 20px 20px;
+
+                          h2{
+                          font-size: 1.3rem;
+                          line-height: 110%;
+                          }
+                      }
+                      .etf-cache-item{
+                        background-color: #fff;
+                        line-height: 1.5rem;
+                        padding: 10px 20px;
+                        margin: 0;
+                        border-bottom: 1px solid #e0e0e0;
+                        font-size: 13px;
+
+                        .etf-delete-transient{
+                            float: right;
+
+                            .dashicons{
+                              color: #f92a4f;
+                              text-decoration: none;
+                              font-size: 22px;
+                              margin-top: 6px;
+                            }
+                        }
+                      }
+                  }
+                .etf-no-cache{
+                  display: inline-block;
+                  padding: 10px 20px 10px 10px;
+                  font-size: 15px;
+                  border-left: 5px solid #f9284f;
+                   @extend %etf-box-shadow;
+                }  
+              }
+
+            }  
+            #etf-skins{
+
+              .etf-new-skin-holer{
+                display:none;
+              }
+
+              .etf-all-skins-wrap{
+
+                .etf-grid-col{
+                    @extend %etf-box-shadow;
+                }
+              }
+            }  
+      }
+    }
+   
+}
+#wpfooter{
+    background-color: #fff;
+        padding: 15px 20px;
+      -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+
+    .fb_iframe_widget{
+    float:left;
+    }
+}  
+#fs_connect .fs-visual .dashicons-wordpress{
+      width: 100% !important;
+    height: 100% !important;
+}  
+  
